@@ -1,7 +1,20 @@
 {
   "name": "react-volume-indicator",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "description": "Volume Indicator for react",
+  "main": "dist/index.js",
+  "author": "Nikhil Sachdeva",
+  "module": "dist/index.js",
+  "keywords": ["react", "components", "ui"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhil-sachdeva/react-volume-indicator.git"
+  },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.16.2",
@@ -37,7 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.3",
+    "@babel/cli": "^7.17.6",
     "@babel/core": "^7.17.5",
     "@babel/preset-env": "^7.16.11"
   }
