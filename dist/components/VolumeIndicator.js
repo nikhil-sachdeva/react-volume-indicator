@@ -35,6 +35,7 @@ const VolumeIndicator = _ref => {
   }, /*#__PURE__*/_react.default.createElement("div", {
     style: {
       margin: 'auto',
+      transition: 'width 200ms',
       padding: '20dp',
       width: "".concat(volume, "%"),
       height: "5px",
