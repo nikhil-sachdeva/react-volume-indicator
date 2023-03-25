@@ -1,12 +1,16 @@
 {
   "name": "react-volume-indicator",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "description": "Volume Indicator for react",
   "main": "dist/index.js",
   "author": "Nikhil Sachdeva",
   "module": "dist/index.js",
-  "keywords": ["react", "components", "ui"],
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
   "files": [
     "dist",
     "README.md"
@@ -51,9 +55,9 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.17.6",
-    "@babel/core": "^7.17.5",
-    "@babel/preset-env": "^7.16.11",
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.3",
+    "@babel/preset-env": "^7.20.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0"
